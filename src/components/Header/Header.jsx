@@ -11,10 +11,10 @@ const Header = () => (
     <S.StyledHeader>
       <img src={Logo} />
       <S.StyledMenu>
-        <span>About</span>
-        <span>Blog</span>
-        <span>Contact</span>
-        <span>Eng</span>
+        <a href='#about'>About</a>
+        <a href='#blog'>Blog</a>
+        <a href='#contact'>Contact</a>
+        <a>Eng</a>
       </S.StyledMenu>
     </S.StyledHeader>
     <S.StyledHeaderContainer>
