@@ -1,5 +1,4 @@
 import React from 'react';
-
 import * as S from './Blog.styled';
 
 import SectionTitle from '../SectionTitle/SectionTitle';

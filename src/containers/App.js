@@ -6,6 +6,7 @@ import Header from '../components/Header/Header';
 import About from '../components/About/About';
 import Collaborators from '../components/Collaborators/Collaborators';
 import Blog from '../components/Blog/Blog';
+import Contact from '../components/Contact/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Collaborators />
       <Blog />
+      <Contact />
     </div>
   );
 }
