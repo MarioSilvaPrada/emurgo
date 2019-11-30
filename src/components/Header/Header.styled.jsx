@@ -72,6 +72,8 @@ export const StyledHeaderContainer = styled.div`
 
   .header-btns {
     width: 100%;
+    display: flex;
+    align-items: center;
 
     button:first-child {
       margin-right: 1.5rem;

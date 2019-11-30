@@ -39,7 +39,7 @@ const About = () => {
         (content, i) =>
           // if index is even place image on the right otherwise place it on the left
           i % 2 === 0 ? (
-            <S.StyledDivision>
+            <S.StyledDivision key={i}>
               <AboutParagraph
                 title={content.title}
                 subtitle={content.subtitle}
@@ -48,7 +48,7 @@ const About = () => {
               <img src={content.img} alt='imageAbout' />
             </S.StyledDivision>
           ) : (
-            <S.StyledDivision>
+            <S.StyledDivision key={i}>
               <img src={content.img} alt='imageAbout' />
 
               <AboutParagraph

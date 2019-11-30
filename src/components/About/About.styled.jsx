@@ -10,19 +10,22 @@ export const AboutContainer = styled.div`
 
 export const StyledDivision = styled.div`
   font-size: .9rem;
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: center;
   width: 50rem;
   margin: 0 auto 9.38rem;
 
   :last-child {
-      margin-bottom: 0;
+    margin-bottom: 0;
   }
 
   img {
-      width:18.8rem;
+    width: 18.8rem;
   }
-  
+
+  @media (max-width: 890px) {
+    flex-direction: column;
+    width: 100%;
   }
 `;

@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const BlogContainer = styled.div`
-    margin-top: 3.13rem;
-    marging: 3.13rem 0 6.25rem;
+    margin: 3.13rem 0 6.25rem;
 `;
 
 export const BlogDescription = styled.div`

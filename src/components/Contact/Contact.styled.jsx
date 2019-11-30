@@ -37,11 +37,13 @@ export const StyledForm = styled.form`
     padding-left: 1.5rem;
     font-size: .9rem;
     outline: none;
+    box-sizing:border-box
   }
 
   textarea {
       padding-top: 1rem;
       resize: none;
+      margin-bottom: 2.25rem;
   }
 
   input {

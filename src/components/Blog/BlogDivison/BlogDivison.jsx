@@ -17,7 +17,7 @@ const StyledContainer = styled.div`
     .content {
         font-size: 1.12rem;
         line-height: 1.75rem;
-        margin: 0 0 3.13rem;
+        margin: 0 ;
     }
 `
 
