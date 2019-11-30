@@ -12,7 +12,7 @@ const Collaborators = () => (
   <div>
     <S.MainImage />
     <S.CollaboratorsContainer>
-      <SectionTitle style={{marginTop: '2.8rem'}} title='Our collaborators' />
+      <SectionTitle style={{marginTop: '2.8rem', marginBottom: '2.68rem'}} title='Our collaborators' />
       <S.CollaboratorsLogos>
         <img src={Cardano} alt='colLogo' />
         <img src={Emurgo} alt='colLogo' />

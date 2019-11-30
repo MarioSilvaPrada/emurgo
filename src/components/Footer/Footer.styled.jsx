@@ -7,6 +7,12 @@ export const StyledContainer = styled.div`
   justify-content: space-between;
   padding: 3.2rem 9.63rem;
   box-sizing: border-box;
+
+  @media (max-width: 800px) {
+    flex-direction: column-reverse;
+    padding: 2rem;
+    height: auto;
+  }
 `;
 
 export const StyledRights = styled.div`
@@ -15,6 +21,14 @@ export const StyledRights = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  @media (max-width: 800px) {
+    margin-bottom: 2rem;
+
+    img{
+      margin-bottom: 1rem;
+    }
+  }
 `;
 
 export const StyledMedia = styled.div`
@@ -38,6 +52,12 @@ export const StyledMedia = styled.div`
       margin-left: .9rem;
       width: 1.5rem;
       cursor: pointer;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .menu, .media{
+      margin-bottom: 1.5rem;
     }
   }
 `;

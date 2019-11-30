@@ -27,5 +27,9 @@ export const StyledDivision = styled.div`
   @media (max-width: 890px) {
     flex-direction: column;
     width: 100%;
+    margin-bottom: 5rem;
+    :nth-child(odd) {
+      flex-direction:column-reverse;
+    }
   }
 `;

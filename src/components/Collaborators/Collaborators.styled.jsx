@@ -10,7 +10,6 @@ export const MainImage = styled.div`
 
 export const CollaboratorsContainer = styled.div`
   width: 100%;
-  height: 15rem;
   background: #f1f7fa;
   display: flex;
   flex-direction: column;
@@ -22,9 +21,22 @@ export const CollaboratorsLogos = styled.div`
   margin: 0 auto 4.25rem;
   display: flex;
   justify-content: space-between;
-  
 
   img {
     width: 12.5rem;
+  }
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+
+    img {
+      margin-bottom: 3rem;
+
+      :last-child {
+        margin-bottom: 0;
+      }
+    }
   }
 `;

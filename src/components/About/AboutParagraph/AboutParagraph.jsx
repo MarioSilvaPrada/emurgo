@@ -26,6 +26,10 @@ const StyledParagraph = styled.div`
     color: #9b9b9b;
     text-align: start;
     line-height: 1.75rem;
+
+    @media (max-width: 890px) {
+     margin-bottom: 3rem;
+    }
 `;
 
 const AboutParagraph = ({ title, subtitle, content }) => (
