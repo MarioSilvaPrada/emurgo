@@ -15,6 +15,12 @@ export const StyledHeader = styled.div`
   position: absolute;
   left: 0;
   right: 0;
+
+  @media (max-width: 740px) {
+    img {
+      display: none;
+    }
+  }
 `;
 
 export const StyledMenu = styled.div`
@@ -29,6 +35,9 @@ export const StyledMenu = styled.div`
     text-decoration: none;
     color: white;
     cursor: pointer;
+  }
+  @media (max-width: 740px) {
+    width: 100%;
   }
 `;
 
@@ -77,6 +86,17 @@ export const StyledHeaderContainer = styled.div`
 
     button:first-child {
       margin-right: 1.5rem;
+    }
+  }
+
+  @media (max-width: 740px) {
+    padding: 0 2rem;
+    width: 100%;
+    box-sizing: border-box;
+
+    h1 {
+      width: 100%;
+      font-size: 2rem;
     }
   }
 `;

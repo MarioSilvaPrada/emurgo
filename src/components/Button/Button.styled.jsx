@@ -12,7 +12,18 @@ export const StyledButton = styled.button`
     letter-spacing: 3px
     cursor: pointer;
     transition: .5s;
-    font-size: .9rem;
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 1.1rem;
+        margin-right: .2rem;
+    }
+    span{
+        width: 100%;
+    }
 
     :hover {
         background: rgba(255, 255, 255, 0.15);

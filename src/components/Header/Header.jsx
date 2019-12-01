@@ -1,6 +1,7 @@
 import React from 'react';
 import Logo from '../../assets/svg/EMURGOTEST-logo.svg';
 import WhiteLogo from '../../assets/svg/EMURGO-logo.svg';
+import Play from '../../assets/svg/play-icon.svg';
 import * as S from './Header.styled';
 
 // Components
@@ -26,7 +27,10 @@ const Header = () => (
       </div>
       <div className='header-btns'>
         <Button>Learn More</Button>
-        <Button>Watch the Video</Button>
+        <Button>
+          <img src={Play} alt='play-logo' />
+          <span>Watch the Video</span>
+        </Button>
       </div>
     </S.StyledHeaderContainer>
   </S.StyledBackground>
